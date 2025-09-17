@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo rm -f /usr/share/nginx/html/index.html
+sudo rm -rf /usr/share/nginx/html/*
