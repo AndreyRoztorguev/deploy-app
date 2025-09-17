@@ -8,6 +8,9 @@ hooks:
     - location: scripts/stop_nginx.sh
       timeout: 300
       runas: root
+    - location: scripts/clean_up.sh
+      timeout: 300
+      runas: root
   AfterInstall:
     - location: scripts/start_nginx.sh
       timeout: 300
